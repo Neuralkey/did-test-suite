@@ -10,7 +10,7 @@ module.exports = {
   name: '7.1 DID Resolution',
   resolvers: [
     require('../implementations/universal-resolver-did-dxd.json'),
-    require('../implementations/resolver-ethr-consensys-mesh.json'),
+    require('../implementations/resolver-ethr-dif.json'),
     require('../implementations/universal-resolver-did-ace.json'),
     require('../implementations/universal-resolver-did-bba.json'),
     require('../implementations/universal-resolver-did-btcr.json'),
@@ -46,6 +46,7 @@ module.exports = {
     require('../implementations/universal-resolver-did-rm.json'),
     require('../implementations/universal-resolver-did-knox.json'),
     require('../implementations/universal-resolver-did-webvh.json'),
+    require('../implementations/universal-resolver-did-hedera.json'),
     require('../implementations/resolver-did-orb.json'),
     require('../implementations/resolver-nft-3box-labs.json'),
     require('../implementations/resolver-example-didwg.json'),
